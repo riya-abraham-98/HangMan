@@ -1,0 +1,190 @@
+*{
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.startpage{
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/23/75/e3/2375e372-4a95-91d7-f7a7-053b56d87ba6/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png);
+    background-repeat: no-repeat;
+     background-size:cover;
+    background-position: top;
+    width: 100vw;
+    
+}
+
+
+
+.startpage input{
+   background-color: rgb(99, 147, 153);
+   width:10%;
+   height:70px;
+   
+   border-radius:20px;
+   border: none;
+   margin:0 auto;
+   margin-top:45%;
+   display: block;
+  
+   
+   
+   color: whitesmoke;
+   font-size: 2rem;
+   font-weight: bolder;
+
+}
+
+
+.container{
+  background-color: blueviolet;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display:none;
+  font-size: 100px;
+  color:plum;
+  font-weight: 900;
+ 
+    
+}
+
+.letters{
+    cursor: pointer;
+}
+
+.letters:hover{
+    color: rgb(184, 95, 184);
+
+}
+.heartsection{
+    display: flex;
+    position: relative;
+    left:550px;
+    color: rgb(196, 15, 15);
+    font-size: 100px;
+    top:-30px;
+}
+
+.hearts{
+    margin: 5px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 50px;
+   
+}
+
+.row1 div{
+    background-color: plum;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 50%;
+   
+    font-weight: 900;
+    color: rgb(20, 83, 85);
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    margin: 50px;
+}
+.row2 div{
+    background-color: plum;
+    padding: 20px;
+    font-size: 50px;
+    
+    border-radius: 50%;
+   
+    font-weight: 900;
+    color: rgb(20, 83, 85);
+}
+
+.row3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    margin: 50px;
+}
+.row3 div{
+    background-color: plum;
+   
+    border-radius: 50%;
+   
+    font-weight: 900;
+    color: rgb(20, 83, 85);
+    padding: 20px;
+    font-size: 50px;
+}
+.row4{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    margin: 50px;
+}
+.row4 div{
+    background-color: plum;
+  
+    border-radius: 50%;
+    
+    font-weight: 900;
+    color: rgb(20, 83, 85);
+    padding: 20px;
+    font-size: 50px;
+}
+.row5{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    margin: 50px;
+}
+.row5 div{
+    background-color: plum;
+  
+    border-radius: 50%;
+    
+    font-weight: 900;
+    color: rgb(20, 83, 85);
+    padding: 20px;
+    font-size: 50px;
+}
+.row6{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    margin: 50px;
+}
+.row6 div{
+    background-color: plum;
+   
+    border-radius: 50%;
+   
+    font-weight: 900;
+    color: rgb(20, 83, 85);
+    padding: 20px;
+    font-size: 50px;
+}
+.letterbox{
+  
+    width:80%;
+    margin-top:100px;
+   
+}
+
+#guessAnswer{
+
+    font-size: 50px;
+    color:white;
+
+
+}
